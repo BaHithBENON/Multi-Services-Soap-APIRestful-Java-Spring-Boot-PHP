@@ -1,5 +1,41 @@
 # Multi-Services-Soap-APIRestful-Java-Spring-Boot-PHP
 
+# ------- ENGLISH ----------
+
+# Project Structure
+
+## A - 0001-mpisi-client-rest
+
+This project contains the client part communicating with the Restful API service located in the `rest-service-etudiant` directory. To launch the service, run the `RESTClient` file.
+
+## B - 0001-soap-ws-client
+
+This project contains the client enabling the use of the SOAP service in the `0001-ws-soap-server-application` project. To launch the service, run the files in the `com.javaws.client` package. The `Launcher.java` file starts a graphical interface for managing authentication via the SOAP service and CRUD via the Rest API. The `ServiceWebClient` file handles SOAP in the terminal, and `AuthenticationAPP` manages authentication with a simple Swing GUI.
+
+## C - 0001-ws-soap-server-application
+
+This project contains the SOAP service offering basic authentication and CRUD functionality for a student. To launch the service, run the `MonitorLauncher.java` file.
+
+## D - rest-service-etudiant
+
+This project contains a Restful API for managing students. To launch the service, run the `RestServiceEtudiantApplication.java` file.
+
+## Configuration and Development
+
+- Developers should check the property files in the resources to manage the ports of services and clients. Ensure that each service and client has its own preferably unused port.
+
+- Each project follows a DAO architecture. Check the configuration files to provide ports and database access.
+
+- For SOAP services, refer to the `web-services.cfg` files for service deployment.
+
+- The services are based on MySQL for the database. Look into the models to define your tables.
+
+- The projects include Maven dependencies. Inspect the `pom.xml` files for these dependencies.
+
+- The projects are designed under Eclipse.
+
+
+# -------- FRENCH -----------
 
 # Structure des Projets
 
