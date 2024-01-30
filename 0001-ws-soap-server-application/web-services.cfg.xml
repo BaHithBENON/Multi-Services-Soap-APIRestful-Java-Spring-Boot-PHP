@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configuration>
+	<web-service>
+		<package>com.javaws.services</package>
+		<name>WSHello</name>
+		<host>http://localhost</host>
+		<port>8081</port>
+		<url>/services</url>					
+	</web-service>
+	
+	<web-service>
+		<package>com.javaws.services</package>
+		<name>WSEtudiant</name>
+		<host>http://localhost</host>
+		<port>8082</port>
+		<url>/etudiants</url>					
+	</web-service>
+	
+	<web-service>
+		<package>com.javaws.services</package>
+		<name>WSAuthentification</name>
+		<host>http://localhost</host>
+		<port>8083</port>
+		<url>/users</url>					
+	</web-service>
+	
+</configuration>
