@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'SpaceMono-Bold';
+    src: url('fonts/SpaceMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SpaceMono-Italic';
+    src: url('fonts/SpaceMono-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('fonts/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'SpaceMono-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(103, 136, 125);
+}
+
+.box {
+    background-color: #333;
+    padding: 50px;
+    color: #fff;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+/* Boutons */
+input[type="submit"] {
+    background-color: #a70ef4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Zone de texte */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tableau */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #a70ef4;
+    color: white;
+}
+
+/* Messages */
+h1 {
+    color: #333;
+}
+
+/* Marge sous les messages */
+br + br {
+    margin-bottom: 20px;
+}
+
+
+.my {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ft-spm {
+    font-family: 'SpaceMono-Regular';
+}
